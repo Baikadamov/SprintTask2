@@ -1,0 +1,426 @@
+* { 
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+    background-color:  #E7EAED;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #4277A5;
+    height: 50px;
+    width: 100%;
+    text-decoration: none;
+}
+ 
+/*  */
+.navbar-brand{
+    font-size: 25px;  
+    font-weight: bolder;
+    color: #fff; 
+    width: 10%;
+    padding-left: 120px;
+}  
+ 
+
+.search-form{
+    width: 60%;  
+}
+.search{
+    border-radius: 20px;
+    text-decoration: none;
+    width: 260px;
+    height: 32px;
+    outline: none;
+    border: none;
+    padding: 10px; 
+    background-color: #2C4869; 
+}
+
+
+.navbar-links ul{
+    display: flex;
+    flex-wrap:wrap;
+    list-style: none;
+}
+
+.navbar-links ul li{
+    margin: 0 5px;
+} 
+
+.navbar-links ul li a{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+ 
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.block{
+    margin-top:30px;
+    display: flex;
+    justify-content: center; 
+}
+
+
+.box-2{
+    width:25%;
+    
+}
+
+.profile-image{  
+    padding-top: 10px;
+    background-color: white;
+    height: 340px;
+    border-radius: 8px;
+}
+
+.image{
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+}
+
+.button-redact{
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+}
+
+.button-redact button{
+    padding: 8px 85px;
+    background-color: #E7EAED;
+    border: 0;
+    color: #495d6c;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
+
+.button-redact button:hover{ 
+    background-color: #b0b1b2; 
+    color: white; 
+}
+
+.image img{
+    padding: 10px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.box-3{
+    width: 55%; 
+}
+
+.info{
+    background-color: white;
+    height: 320px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.photos{
+    margin-top: 20px;
+    background-color: white;
+    height: 200px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.photos div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photos div img{
+    object-fit: cover;
+    width: 130;
+}
+ 
+ 
+
+.posts{
+    margin-top: 20px;
+    background-color: white;
+    height: 400px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.post-info{ 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.post-image{ 
+    width: 5%;
+}
+.posts div img{ 
+    border-radius: 100%; 
+    object-fit: cover;
+    width: 70; 
+    position: relative;
+    right: 20px;
+}
+
+.post-author{  
+    width: 80%; 
+    padding-right: 200px; 
+}
+
+
+.my-friends{
+    margin-top: 20px;
+    background-color: white;
+    height: 250px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.my-friends-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.my-friends-list div img{
+    border-radius: 100%;
+    width: 55;
+}
+
+.about{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+.about div{
+    width: 100%;
+}
+
+.about div p{
+    margin: 4px 0    ;
+}
+
+
+.stat{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stat div{
+    align-items: center;
+     
+} 
+
+
+.feed{
+    width: 15%; 
+}
+.feed ul {
+    list-style: none;
+    padding-top: 10px;
+    padding-left:30px;
+} 
+.feed ul li { 
+    text-decoration: none; 
+    margin-bottom: 18px;
+}
+.feed ul li a{
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.friends{
+    width: 52%;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.friends-option{
+    margin-top:10px;
+    display: flex;
+    justify-content: start;
+    align-items: center; 
+}
+ 
+.friends-option div{
+    
+    width: 80%;
+    margin-right: 20px;
+}
+
+.friends-option div button{ 
+    margin-right: 20px;
+    padding: 5px;
+    border: 0;
+    height: 28px;
+    background-color: #fff;
+}
+
+.friends-option div button:hover{  
+    background-color: #EDEDFD;
+    border-radius: 5px;
+}
+
+.btn{
+    background-color: #4277A5;
+    color: white;
+    border-radius: 3px;
+    height: 28px;
+    width: 120px;
+    padding: 5px;
+    transition: ease-in-out 0.2s;
+    margin-right: 10px;
+    border: 0;
+}
+
+.btn:hover{
+    background-color:  #EDEDFD;;
+    color: black;
+}
+
+.friends-search{
+    outline: none;
+    width: 100%;
+    margin-top: 10px; 
+    padding: 8px;
+    padding-left: 20px;
+    border: none;
+    border-top: 2px #b7b7b7 solid ;
+    border-bottom: 2px #b7b7b7  solid ;
+} 
+
+.friend{
+    display: flex;
+    justify-content: start;   
+}
+
+.photo{
+    width: 15%;
+    margin: 10px;
+}
+
+.photo img{
+    border-radius: 100%;  
+}
+
+.desc{
+    width: 80%;
+    margin-top: 15px; 
+}
+
+.desc h4{
+    color: #426ba2;
+} 
+.desc p{
+    margin-top: 5px;
+    color: #4e5356;
+}
+
+.desc p a{
+    color:#617a99;
+}
+.settings{
+    width: 5%;  
+}
+.settings a{
+    text-decoration: none;
+    color:blue;
+    font-size: 20px;
+}
+
+
+.filter{ 
+    width: 25%; 
+}
+
+.filter-friends{
+    height: 280px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.filter-friends ul{
+    list-style: none; 
+}
+
+.filter-friends ul li{
+    padding: 14px;
+    transition: ease-in 0.15s;
+}
+
+.filter-friends ul li:hover{
+    background-color: #EDEDFD;
+}
+
+.filter-friends ul li a{
+    
+    text-decoration: none;
+    color: black;
+}
+
+.possible-friends{
+    padding: 15px;
+    margin-top:20px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.mutual-friend{
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+}
+
+.mutual-image{
+    width: 30%; 
+}
+
+.mutual-desc{
+    width: 70%;
+}
+.mutual-desc p a{
+    text-decoration: none; 
+    color: #426ba2;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
